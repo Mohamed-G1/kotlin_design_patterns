@@ -1,7 +1,7 @@
 package state_pattern
 
 fun main() {
-    val vendingMachine = VendingMachine(false)
-    vendingMachine.ejectMoney()
+    val vendingMachine = VendingMachine(true)
+    vendingMachine.dispence()
     println(vendingMachine.currentState.toString())
 }
